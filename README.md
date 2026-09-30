@@ -72,7 +72,7 @@ ollama pull qwen2.5-coder:14b
 🚀 Installation & Setup
 1. Clone the Repository & Install Dependencies
 ```bash
-git clone [https://github.com/your-username/xiangqi-ai-bot.git](https://github.com/your-username/xiangqi-ai-bot.git)
+git clone https://github.com/ngocdh91/xiangqi-agent.git
 cd xiangqi-ai-bot
 ```
 # Install required Python packages
