@@ -46,15 +46,17 @@ An automated Xiangqi (Chinese Chess) playing system that combines **Computer Vis
        ▼
 [ ADB Auto-Clicker ] ────────► Executes the touch gesture on the Android screen
 
-
+```
 📁 Project Structure
-Plaintext
+```text
+
 ├── chess_rules.py        # Move validation, check detection, and priority sorting
 ├── agent.py              # LLM integration via Ollama and prompt handling
 ├── vision.py             # YOLO-based board recognition from screen frames
 ├── main.py               # Main control pipeline integrating vision, rules, LLM, and ADB
 ├── best.pt           # Custom trained YOLO model weights
 └── README.md
+```
 📋 Prerequisites
 Python 3.9+
 
@@ -64,28 +66,32 @@ scrcpy & ADB: Installed and added to system PATH.
 
 Ollama: Installed locally with your target LLM model pulled:
 
-Bash
-ollama pull qwen2.5-coder:14b
+```bash
+ollama pull qwen2.5-coder:14b ```
 🚀 Installation & Setup
 1. Clone the Repository & Install Dependencies
-Bash
+```bash
 git clone [https://github.com/your-username/xiangqi-ai-bot.git](https://github.com/your-username/xiangqi-ai-bot.git)
 cd xiangqi-ai-bot
-
+```
 # Install required Python packages
+```bash
 pip install ultralytics opencv-python ollama
+```
 2. Connect Your Android Device
 Connect your device via USB and verify the ADB connection:
 
-Bash
+```bash
 adb devices
+```
 (Ensure your device appears as device, not unauthorized)
 
 3. Run the Bot
 Start the main pipeline:
 
-Bash
+```bash
 python main.py
+```
 🤝 Contributing
 Contributions regarding YOLO dataset optimizations, prompt improvements, or engine performance enhancements are welcome! Feel free to submit a Pull Request.
 
