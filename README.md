@@ -67,7 +67,8 @@ scrcpy & ADB: Installed and added to system PATH.
 Ollama: Installed locally with your target LLM model pulled:
 
 ```bash
-ollama pull qwen2.5-coder:14b ```
+ollama pull qwen2.5-coder:14b
+```
 🚀 Installation & Setup
 1. Clone the Repository & Install Dependencies
 ```bash
