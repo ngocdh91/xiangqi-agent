@@ -1,4 +1,4 @@
-Markdown
+
 # ♟️ Xiangqi AI Bot (Automated Chinese Chess Bot)
 
 An automated Xiangqi (Chinese Chess) playing system that combines **Computer Vision** and a **Locally Hosted Large Language Model (LLM)**. The system automatically captures an Android screen, detects the board state using YOLO, enforces chess rules, prioritizes tactical opportunities, and executes optimal moves in real time.
@@ -45,14 +45,15 @@ An automated Xiangqi (Chinese Chess) playing system that combines **Computer Vis
        │
        ▼
 [ ADB Auto-Clicker ] ────────► Executes the touch gesture on the Android screen
+
+
 📁 Project Structure
 Plaintext
 ├── chess_rules.py        # Move validation, check detection, and priority sorting
 ├── agent.py              # LLM integration via Ollama and prompt handling
 ├── vision.py             # YOLO-based board recognition from screen frames
 ├── main.py               # Main control pipeline integrating vision, rules, LLM, and ADB
-├── weights/
-│   └── best.pt           # Custom trained YOLO model weights
+├── best.pt           # Custom trained YOLO model weights
 └── README.md
 📋 Prerequisites
 Python 3.9+
